@@ -92,13 +92,13 @@
             border-radius: 6px;
             cursor: pointer;
             text-align: center;
+            list-style: none;
         }
 
         .btn:hover {
             background: red;
         }
 
-        /* Tableau */
 
         .table-container {
             background: white;
@@ -136,4 +136,7 @@
         .prix {
             font-weight: bold;
             color: #16a34a;
+        }
+        a{
+            text-decoration: none;
         }

@@ -75,7 +75,7 @@ $produits = $_SESSION["produits"];
                         type="number"
                         id="prix"
                         name="prix"
-                        placeholder="10.000 FcFA"
+                        placeholder=" Ex : 10.000 FcFA"
                         required>
 
                 </div>
@@ -84,7 +84,26 @@ $produits = $_SESSION["produits"];
                     <label for="categorie">Catégorie</label>
 
                     <select id="categorie" name="categorie" required>
-                    </select>
+
+                    <option value="">Vuiellez entre votre choix</option>
+
+                    <option value="Informatique">
+                        Informatique
+                    </option>
+
+                    <option value="Téléphone">
+                        Téléphone
+                    </option>
+
+                    <option value="Accessoires">
+                        Accessoires
+                    </option>
+
+                    <option value="Bureautique">
+                        Bureautique
+                    </option>
+
+                </select>
 
                 </div>
                 <a href="Ajouter" class="btn">+ Ajouter le produit</a>
