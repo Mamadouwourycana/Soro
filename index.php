@@ -98,11 +98,6 @@ $produits = $_SESSION["produits"];
                     <option value="Accessoires">
                         Accessoires
                     </option>
-
-                    <option value="Bureautique">
-                        Bureautique
-                    </option>
-
                 </select>
 
                 </div>
